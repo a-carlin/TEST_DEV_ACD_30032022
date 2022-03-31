@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Http;
+@{
+    var user = Context.Request.Cookies["test"];
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-light border-bottom box-shadow ">
+            <div class="container-fluid">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse col-md-8">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-tabs">
+                            <a class="nav-link text-dark" asp-controller="PersonasFisicas"
+                               asp-action="Index">Personas Físicas</a>
+                        </li>
+                        <li class="nav-tabs">
+                            <a class="nav-link text-dark" asp-controller="PersonasFisicas"
+                               asp-action="Reporte">Reportes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse col-md-4">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-tabs pt-2">
+                            Usuario: @user
+                        </li>
+                        <li class="nav-tabs pl-4">
+                             <a class="nav-link text-dark" asp-controller="Login"
+                               asp-action="LogOff">Salir</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted bg-light">
+        <div class="container">
+            &copy; 2022 - Test - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+   
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

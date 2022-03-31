@@ -1,0 +1,10 @@
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\bin\Debug\netcoreapp3.1\Test.Models.deps.json
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\bin\Debug\netcoreapp3.1\Test.Models.dll
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\bin\Debug\netcoreapp3.1\Test.Models.pdb
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.csproj.AssemblyReference.cache
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.AssemblyInfoInputs.cache
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.AssemblyInfo.cs
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.csproj.CoreCompileInputs.cache
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.dll
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.pdb

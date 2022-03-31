@@ -1,0 +1,16 @@
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\bin\Debug\netcoreapp3.1\Test.Data.deps.json
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\bin\Debug\netcoreapp3.1\Test.Data.runtimeconfig.json
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\bin\Debug\netcoreapp3.1\Test.Data.runtimeconfig.dev.json
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\bin\Debug\netcoreapp3.1\Test.Data.dll
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\bin\Debug\netcoreapp3.1\Test.Data.pdb
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\bin\Debug\netcoreapp3.1\Test.Models.dll
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\bin\Debug\netcoreapp3.1\Test.Models.pdb
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.csproj.AssemblyReference.cache
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.AssemblyInfoInputs.cache
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.AssemblyInfo.cs
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.csproj.CoreCompileInputs.cache
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.csproj.CopyComplete
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.dll
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.pdb
+C:\Users\Abraham Carlin\Documents\Test\TEST\Test.Data\obj\Debug\netcoreapp3.1\Test.Data.genruntimeconfig.cache

@@ -1,0 +1,54 @@
+﻿@model Usuario
+
+@{
+    var title = "Acceso al Sistema";
+    ViewData["Title"] = title;
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Test</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true"/>
+    <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">*@
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true"/>
+  </head>
+  <body>
+     <div class="container">
+        <div class="row text-center login-page">
+	   <div class="col-md-12 login-form">
+	     <form method="post" asp-action="Login">
+			 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+	         <div class="row">
+		    <div class="col-md-12 login-form-header">
+		       <p class="login-form-font-header">Test<span>Login</span><p>
+		    </div>
+		</div>
+		<div class="row">
+		   <div class="col-md-12 login-from-row">
+		      <input asp-for="Correo" type="email" placeholder="Correo" class="form-control"/>
+			  @Html.ValidationMessageFor(m => m.Correo, "", new { @class = "text-danger" })
+		   </div>
+		</div>
+		<div class="row">
+		   <div class="col-md-12 login-from-row">
+		      <input asp-for="Contrasena" placeholder="Contraseña" class="form-control"/>
+			  @Html.ValidationMessageFor(m => m.Contrasena, "", new { @class = "text-danger" })
+		   </div>
+		</div>
+		<div class="row">
+		   <div class="col-md-12 login-from-row">
+			   <input type="submit" value="Entrar" class="btn btn-info" />
+		   </div>
+		</div>
+	    </form>
+	</div>
+     </div>
+  </div>
+</body>
+</html>

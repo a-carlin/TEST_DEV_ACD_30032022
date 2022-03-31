@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Persona Física";
+}
+@model PersonaFisicaViewModel
+<h4>Editar Persona Física</h4>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Actualizar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="IdPersonaFisica" />
+            <input hidden asp-for="Activo" />
+            <input hidden asp-for="UsuarioAgrega" />
+            <div class="form-group">
+                <label class="control-label">Id</label>
+                <input asp-for="IdPersonaFisica" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label class="control-label">*Nombre</label>
+                <input asp-for="Nombre" class="form-control" required/>
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">*Apellido Paterno</label>
+                <input asp-for="ApellidoPaterno" class="form-control" required/>
+                <span asp-validation-for="ApellidoPaterno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Apellido Materno</label>
+                <input asp-for="ApellidoMaterno" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Fecha de Nacimiento</label>
+                <input asp-for="FechaNacimiento" type="date" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">*RFC</label>
+                <input asp-for="RFC" class="form-control" required maxlength="13"/>
+                <span asp-validation-for="RFC" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <a class="btn btn-danger" asp-action="Index">Cancelar</a>
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

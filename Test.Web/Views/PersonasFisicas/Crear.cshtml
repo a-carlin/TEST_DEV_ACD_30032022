@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Persona Física";
+}
+@model PersonaFisicaViewModel
+<h4>Crear Persona Física</h4>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Crear">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">*Nombre</label>
+                <input asp-for="Nombre" class="form-control" required/>
+            </div>
+            <div class="form-group">
+                <label class="control-label">*Apellido Paterno</label>
+                <input asp-for="ApellidoPaterno" class="form-control" required/>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Apellido Materno</label>
+                <input asp-for="ApellidoMaterno" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Fecha de Nacimiento</label>
+                <input asp-for="FechaNacimiento" type="date" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">*RFC</label>
+                <input asp-for="RFC" class="form-control" required/>
+            </div>
+            
+            <div class="form-group">
+                <a class="btn btn-danger" asp-action="Index">Cancelar</a>
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
